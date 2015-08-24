@@ -1,0 +1,6 @@
+name = Islandora Legacy Bookreader
+description = Pseudo-module providing legacy support for moving from Islandora 6 to Islandora 7 when it is necessary to preserve links to /site/default/modules/islandora_bookreader/mainpage.php, which previously provided a standalone bookreader.
+core = 7.x
+dependencies[] = islandora_book
+dependencies[] = islandora_internet_archive_bookreader
+dependencies[] = content_page_ajax_request
